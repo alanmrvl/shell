@@ -11,3 +11,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'purescript-contrib/purescript-vim'
 
 call plug#end()
+
+set relativenumber
+set background=dark
