@@ -9,6 +9,7 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'purescript-contrib/purescript-vim'
+Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
