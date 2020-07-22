@@ -1,0 +1,13 @@
+base
+base-devel
+efibootmgr
+git
+intel-ucode
+linux
+linux-firmware
+man-db
+man-pages
+networkmanager
+os-prober
+texinfo
+vim

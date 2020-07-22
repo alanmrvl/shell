@@ -1,0 +1,6 @@
+lf-bin
+ncurses5-compat-libs # for purescript
+protonvpn-cli-ng
+python-configparser # for protonvpn-linux-gui
+protonvpn-linux-gui
+webtorrent-desktop-bin

@@ -1,0 +1,57 @@
+bc
+dmidecode
+dotnet-sdk
+neomutt
+nodejs
+npm
+ntp
+nuget
+ripgrep
+
+# desktop
+alacritty
+dmenu
+i3
+noto-fonts-emoji
+ttf-dejavu
+ttf-linux-libertine
+xorg
+xorg-xinit
+
+# apps
+blender
+code
+firefox
+
+# libvirt
+ebtables
+dnsmasq
+libvirt
+qemu
+virsh
+virt-manager
+
+# containers 
+helm
+kubectl
+minikube
+podman
+
+# media
+alsa-utils
+ffmpeg
+mpc
+mpd
+mpv
+pamixer
+pulseaudio
+pulseaudio-alsa
+pulseaudio-bluetooth
+pulseaudio-equalizer
+pulsemixer
+
+# printing
+cups
+enscript
+ghostscript
+psutils
