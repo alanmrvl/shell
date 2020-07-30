@@ -13,5 +13,6 @@ Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
-set relativenumber
+set number relativenumber
+set nu rnu
 set background=dark
