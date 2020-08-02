@@ -45,6 +45,7 @@ mpc
 mpd
 mpv
 pamixer
+pavucontrol
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
