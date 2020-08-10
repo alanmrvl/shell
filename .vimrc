@@ -11,6 +11,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'purescript-contrib/purescript-vim'
 Plug 'rust-lang/rust.vim'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'majutsushi/tagbar'
+Plug 'scrooloose/syntastic'
 
 call plug#end()
 
