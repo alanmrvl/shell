@@ -8,12 +8,14 @@ npm
 ntp
 nuget
 ripgrep
+tmux
 usbutils
 
 # desktop
 alacritty
 dmenu
 i3
+nitrogen
 noto-fonts-emoji
 ttf-dejavu
 ttf-linux-libertine
