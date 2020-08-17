@@ -1,0 +1,15 @@
+# in ~/.local/share/applications
+# https://blog.nightly.mozilla.org/2016/09/19/getting-firefox-nightly-to-stick-to-ubuntus-unity-dock/
+# https://askubuntu.com/questions/403766/duplicate-icons-for-manually-created-gnome-launcher-items/635839#635839
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+NoDisplay=false
+Terminal=false
+Exec=~/.apps/firefox-nightly/firefox
+Name=Nightly
+Comment=Custom definition for Nightly
+Icon=~/.apps/firefox-nightly/browser/chrome/icons/default/default128.png
+Categories=Network;WebBrowser;
+StartupWMClass=Nightly
