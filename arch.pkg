@@ -28,9 +28,13 @@ code
 firefox
 
 # libvirt
+bison
+bridge-utils
 ebtables
+edk2-ovmf
 dnsmasq
 libvirt
+flex
 qemu
 virsh
 virt-manager
