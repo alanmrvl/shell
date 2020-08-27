@@ -1,0 +1,9 @@
+avahi-daemon
+dbus
+libvirtd
+NetworkManager
+ntp
+org.cups.cupsd
+polkit
+rtkit
+virtlogd
