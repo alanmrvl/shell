@@ -41,6 +41,7 @@ virt-manager
 
 # containers 
 buildah
+fuse-overlayfs
 helm
 kubectl
 minikube
