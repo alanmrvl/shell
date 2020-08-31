@@ -26,6 +26,7 @@ xorg-xinit
 blender
 code
 firefox
+mgba-qt
 
 # libvirt
 bison
