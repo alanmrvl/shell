@@ -67,3 +67,7 @@ cups
 enscript
 ghostscript
 psutils
+
+# rdp
+remmina
+freerdp
