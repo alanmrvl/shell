@@ -9,5 +9,6 @@ man-db
 man-pages
 networkmanager
 os-prober
+perl-path-tiny
 texinfo
 vim
