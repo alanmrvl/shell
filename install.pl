@@ -7,7 +7,7 @@ use Path::Tiny;
 
 # get packages to install
 
-my @pkgs = path("./arch.pkg")->lines_utf8( { chomp => 1 } );
+my @pkgs = path("./pkg/arch/arch.pkg")->lines_utf8( { chomp => 1 } );
 
 @pkgs = map { s/#.*//r } @pkgs; # remove comments
 @pkgs = map { s/\s*//r } @pkgs; # remove whitespace
