@@ -2,6 +2,7 @@ bc
 ctags
 dmidecode
 dotnet-sdk
+mlocate
 neomutt
 nodejs
 npm
