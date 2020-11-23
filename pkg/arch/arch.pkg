@@ -25,6 +25,7 @@ nitrogen
 noto-fonts-emoji
 ttf-dejavu
 ttf-linux-libertine
+xclip
 xorg
 xorg-xinit
 
@@ -32,6 +33,7 @@ xorg-xinit
 blender
 code
 firefox
+gimp
 mgba-qt
 obs-studio
 
