@@ -3,7 +3,6 @@ ctags
 dmidecode
 dotnet-sdk
 mlocate
-neomutt
 nodejs
 npm
 ntp
@@ -79,3 +78,12 @@ psutils
 # rdp
 remmina
 freerdp
+
+# mail
+abook
+isync
+lynx
+msmtp
+neomutt
+notmuch
+pass
