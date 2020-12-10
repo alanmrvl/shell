@@ -16,12 +16,14 @@ usbutils
 # desktop
 alacritty
 dmenu
+hacksaw
 i3-gaps
 i3blocks
 i3lock
 i3status
 nitrogen
 noto-fonts-emoji
+shotgun
 ttf-dejavu
 ttf-linux-libertine
 xclip
@@ -36,6 +38,10 @@ gimp
 inkscape
 mgba-qt
 obs-studio
+
+# development
+meson
+ninja
 
 # libvirt
 bison
@@ -58,6 +64,7 @@ podman
 
 # media
 alsa-utils
+faad2
 ffmpeg
 mpc
 mpd
@@ -69,6 +76,7 @@ pulseaudio-alsa
 pulseaudio-bluetooth
 pulseaudio-equalizer
 pulsemixer
+xvidcore
 
 # printing
 cups
