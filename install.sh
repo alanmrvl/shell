@@ -13,6 +13,7 @@ ln -sf $DIR/.bash_profile $HOME/.bash_profile
 ln -sf $DIR/.npmrc $HOME/.npmrc
 ln -sf $DIR/.vimrc $HOME/.vimrc
 ln -sf $DIR/.xinitrc $HOME/.xinitrc
+ln -sf $DIR/.local/alanmrvl $HOME/.local/alanmrvl
 
 ln -sf $DIR/.config/i3/config $HOME/.config/i3/config
 ln -sf $DIR/.config/nitrogen/bg-saved.cfg $HOME/.config/nitrogen/bg-saved.cfg
