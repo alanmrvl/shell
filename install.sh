@@ -6,6 +6,7 @@ OUT_DIR="$ROOT_DIR/out/ln"
 
 mkdir -p $HOME/.apps/bin
 mkdir -p $HOME/.config/i3
+mkdir -p $HOME/.config/newsboat
 mkdir -p $HOME/.config/nitrogen
 mkdir -p $HOME/.local/share/applications
 
@@ -26,3 +27,5 @@ ln -sf $OUT_DIR/.local/share/applications/firefox-nightly.desktop $HOME/.local/s
 if test -f "$HOME/.apps/firefox-nightly/firefox"; then
     ln -sf $HOME/.apps/firefox-nightly/firefox $HOME/.apps/bin/nightly
 fi
+
+gpg --decrypt --output "$HOME/.config/newsboat/urls" "$DIR/.config/newsboat/urls.gpg"

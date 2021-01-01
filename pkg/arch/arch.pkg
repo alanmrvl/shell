@@ -3,11 +3,13 @@ ctags
 dmidecode
 dotnet-sdk
 mlocate
+newsboat
 nodejs
 npm
 ntp
 nuget
 qt5-tools
+rclone
 ripgrep
 tmux
 unzip
