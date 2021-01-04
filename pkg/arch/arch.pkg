@@ -63,6 +63,7 @@ helm
 kubectl
 minikube
 podman
+podman-compose
 
 # media
 alsa-utils
