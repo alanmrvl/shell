@@ -9,6 +9,7 @@ npm
 ntp
 nuget
 qt5-tools
+ranger
 rclone
 ripgrep
 tmux
@@ -18,6 +19,7 @@ usbutils
 # desktop
 alacritty
 dmenu
+element-desktop
 hacksaw
 i3-gaps
 i3blocks
@@ -25,6 +27,7 @@ i3lock
 i3status
 nitrogen
 noto-fonts-emoji
+ristretto
 shotgun
 ttf-dejavu
 ttf-linux-libertine
