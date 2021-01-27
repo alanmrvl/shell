@@ -3,7 +3,7 @@ dbus
 libvirtd
 NetworkManager
 ntp
-org.cups.cupsd
+cups
 polkit
 rtkit
 virtlogd

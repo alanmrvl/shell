@@ -89,6 +89,7 @@ cups
 enscript
 ghostscript
 psutils
+nss-mdns
 
 # rdp
 remmina
