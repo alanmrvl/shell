@@ -1,0 +1,33 @@
+#!/bin/sh
+
+DEVICE="$(scanimage -L | grep -oh 'escl:http://192\.168\.1\.[0-9]*:[0-9]*')"
+SCANDIR="$HOME/Downloads"
+TIMESTAMP="$(date +"%s")"
+FILENAME="$SCANDIR/scan-$TIMESTAMP"
+
+mkdir -p $SCANDIR
+
+scanimage \
+	--device "$DEVICE" \
+	--format=tiff \
+	--output-file $FILENAME.tiff \
+	--progress \
+	--resolution 300 \
+	-l 0mm \
+	-t 0mm
+
+tiff2pdf -o "$FILENAME.pdf" "$FILENAME.tiff"
+
+gs \
+	-sDEVICE=pdfwrite \
+	-dCompatibilityLevel=1.4 \
+	-dPDFSETTINGS=/prepress \
+	-dNOPAUSE \
+	-dQUIET \
+	-dBATCH \
+	-sOutputFile="$FILENAME-small.pdf" \
+	"$FILENAME.pdf"
+
+echo "$FILENAME.tiff"
+echo "$FILENAME.pdf"
+echo "$FILENAME-small.pdf"

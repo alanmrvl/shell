@@ -90,6 +90,7 @@ enscript
 ghostscript
 psutils
 nss-mdns
+sane-airscan
 
 # rdp
 remmina
