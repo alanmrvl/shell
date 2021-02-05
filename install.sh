@@ -28,5 +28,3 @@ ln -sf $OUT_DIR/.local/share/applications/firefox-nightly.desktop $HOME/.local/s
 if test -f "$HOME/.apps/firefox-nightly/firefox"; then
     ln -sf $HOME/.apps/firefox-nightly/firefox $HOME/.apps/bin/nightly
 fi
-
-gpg --decrypt --output "$HOME/.config/newsboat/urls" "$DIR/.config/newsboat/urls.gpg"

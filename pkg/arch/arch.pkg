@@ -1,13 +1,9 @@
 bc
-ctags
 dmidecode
-dotnet-sdk
+jq
 mlocate
 newsboat
-nodejs
-npm
 ntp
-nuget
 qt5-tools
 ranger
 rclone
@@ -19,27 +15,35 @@ zip
 
 # desktop
 alacritty
+noto-fonts-emoji
+ristretto
+ttf-dejavu
+ttf-linux-libertine
+
+# desktop xorg
 dmenu
-element-desktop
 hacksaw
 i3-gaps
 i3blocks
 i3lock
 i3status
 nitrogen
-noto-fonts-emoji
-ristretto
 shotgun
-sway
-ttf-dejavu
-ttf-linux-libertine
 xclip
 xorg
 xorg-xinit
 
+# desktop wayland
+grim
+slurp
+sway
+wl-clipboard
+wofi
+
 # apps
 blender
 code
+element-desktop
 firefox
 gimp
 inkscape
@@ -47,8 +51,13 @@ mgba-qt
 obs-studio
 
 # development
+ctags
+dotnet-sdk
 meson
 ninja
+nodejs
+npm
+nuget
 
 # libvirt
 bison
