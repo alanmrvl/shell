@@ -37,6 +37,8 @@ xorg-xinit
 grim
 slurp
 sway
+swayidle
+swaylock
 wl-clipboard
 
 # apps
@@ -50,6 +52,7 @@ mgba-qt
 obs-studio
 
 # development
+aspnet-runtime
 ctags
 dotnet-sdk
 meson
