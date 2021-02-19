@@ -1,0 +1,7 @@
+[vpn]
+command=echo "VPN: $(protonvpn s | awk '/Status/{print $2}')"
+interval=300
+
+[curr_date]
+command=date +'%Y-%m-%d %l:%M:%S %p'
+interval=1
