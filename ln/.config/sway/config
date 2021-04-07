@@ -24,8 +24,8 @@ set $menu rofi -show run | xargs swaymsg exec --
 #
 # Default wallpaper (more resolutions are available in @datadir@/backgrounds/sway/)
 output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-output DVI-I-1 pos 0 0
-output HDMI-A-1 pos 1920 0
+# output DVI-I-1 pos 0 0
+# output HDMI-A-1 pos 1920 0
 #
 # Example configuration:
 #

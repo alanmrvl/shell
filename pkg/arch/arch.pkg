@@ -109,6 +109,7 @@ nss-mdns
 sane-airscan
 
 # rdp
+libvncserver
 remmina
 freerdp
 
