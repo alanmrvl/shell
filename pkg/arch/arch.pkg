@@ -121,3 +121,8 @@ msmtp
 neomutt
 notmuch
 pass
+
+# nvidia
+lib32-mesa-demos
+lib32-nvidia-utils
+nvidia
