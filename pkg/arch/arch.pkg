@@ -1,5 +1,6 @@
 bc
 dmidecode
+dnsutils
 flatpak
 jq
 mlocate
@@ -17,6 +18,7 @@ zip
 
 # desktop
 alacritty
+audacity
 godot
 i3blocks
 noto-fonts-emoji
