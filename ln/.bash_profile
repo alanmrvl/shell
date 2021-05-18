@@ -7,6 +7,7 @@
 export PATH="$HOME/.local/npm/bin:$PATH"
 export PATH="$HOME/.apps/bin:$PATH"
 export PATH="$HOME/.local/alanmrvl/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 if [ -d "/usr/share/sway/scripts" ]; then
     export PATH="$PATH:/usr/share/sway/scripts"
