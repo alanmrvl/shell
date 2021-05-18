@@ -70,7 +70,7 @@ nuget
 # libvirt
 bison
 bridge-utils
-ebtables
+#ebtables
 edk2-ovmf
 dnsmasq
 libvirt
