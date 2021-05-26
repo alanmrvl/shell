@@ -19,3 +19,6 @@ export MOZ_ENABLE_WAYLAND=1
 export GATSBY_TELEMETRY_DISABLED=1
 export _JAVA_AWT_WM_NONREPARENTING=1 # https://github.com/swaywm/sway/issues/595
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
+
+alias ll="ls -lF"
+alias la="ll -a"

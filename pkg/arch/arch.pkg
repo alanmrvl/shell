@@ -47,6 +47,10 @@ swayidle
 swaylock
 wl-clipboard
 
+# ranger
+ffmpegthumbnailer
+ueberzug
+
 # apps
 blender
 code
