@@ -1,1 +1,2 @@
-exec i3
+xorg-fix-monitor-order.sh 
+exec xmonad

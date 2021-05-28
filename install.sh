@@ -11,6 +11,7 @@ mkdir -p $HOME/.config/nitrogen
 mkdir -p $HOME/.config/ranger
 mkdir -p $HOME/.config/sway
 mkdir -p $HOME/.local/share/applications
+mkdir -p $HOME/.xmonad
 
 ln -sf $DIR/.bash_profile $HOME/.bash_profile
 ln -sf $DIR/.npmrc $HOME/.npmrc
@@ -24,6 +25,7 @@ ln -sf $DIR/.config/nitrogen/bg-saved.cfg $HOME/.config/nitrogen/bg-saved.cfg
 ln -sf $DIR/.config/nitrogen/nitrogen.cfg $HOME/.config/nitrogen/nitrogen.cfg
 ln -sf $DIR/.config/ranger/rc.conf $HOME/.config/ranger/rc.conf
 ln -sf $DIR/.config/sway/config $HOME/.config/sway/config
+ln -sf $DIR/.xmonad/xmonad.hs $HOME/.xmonad/xmonad.hs
 
 mkdir -p $OUT_DIR/.local/share/applications
 sed "s/{{HOME}}/${HOME//\//\\/}/" $DIR/.local/share/applications/firefox-nightly.desktop > $OUT_DIR/.local/share/applications/firefox-nightly.desktop
