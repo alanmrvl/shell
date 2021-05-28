@@ -34,8 +34,10 @@ i3blocks
 i3lock
 i3status
 nitrogen
+picom
 shotgun
 xclip
+xmobar
 xmonad
 xmonad-contrib
 xorg
