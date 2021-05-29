@@ -2,6 +2,8 @@ bc
 dmidecode
 dnsutils
 flatpak
+htop
+iftop
 jq
 mlocate
 newsboat
@@ -24,7 +26,9 @@ i3blocks
 noto-fonts-emoji
 ristretto
 ttf-dejavu
+ttf-font-awesome
 ttf-linux-libertine
+ttf-ubuntu-font-family
 
 # desktop xorg
 dmenu
