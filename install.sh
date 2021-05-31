@@ -5,6 +5,7 @@ DIR="$ROOT_DIR/ln"
 OUT_DIR="$ROOT_DIR/out/ln"
 
 mkdir -p $HOME/.apps/bin
+mkdir -p $HOME/.config/alacritty
 mkdir -p $HOME/.config/i3blocks
 mkdir -p $HOME/.config/newsboat
 mkdir -p $HOME/.config/nitrogen
@@ -21,6 +22,7 @@ ln -sf $DIR/.xinitrc $HOME/.xinitrc
 ln -sf -t $HOME/.local $DIR/.local/alanmrvl 
 
 ln -sf $DIR/.config/i3blocks/config $HOME/.config/i3blocks/config
+ln -sf $DIR/.config/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.yml
 ln -sf $DIR/.config/newsboat/config $HOME/.config/newsboat/config
 ln -sf $DIR/.config/nitrogen/bg-saved.cfg $HOME/.config/nitrogen/bg-saved.cfg
 ln -sf $DIR/.config/nitrogen/nitrogen.cfg $HOME/.config/nitrogen/nitrogen.cfg

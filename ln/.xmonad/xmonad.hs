@@ -9,6 +9,7 @@
 
 import XMonad
 import XMonad.Hooks.ManageDocks
+import XMonad.Layout.Spacing
 import XMonad.Util.Run
 import XMonad.Util.SpawnOnce
 import Data.Monoid
@@ -32,7 +33,7 @@ myClickJustFocuses = False
 
 -- Width of the window border in pixels.
 --
-myBorderWidth   = 2
+myBorderWidth   = 1
 
 -- modMask lets you specify which modkey you want to use. The default
 -- is mod1Mask ("left alt").  You may also consider using mod3Mask
@@ -183,8 +184,10 @@ myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
 --
 -- The available layouts.  Note that each layout is separated by |||,
 -- which denotes layout choice.
---
-myLayout = avoidStruts $ tiled ||| Mirror tiled ||| Full
+
+mySpacing b = spacingRaw False (Border b b b b) True (Border b b b b) True
+
+myLayout = avoidStruts $ mySpacing 10 $ tiled ||| Mirror tiled ||| Full
   where
      -- default tiling algorithm partitions the screen into two panes
      tiled   = Tall nmaster delta ratio
