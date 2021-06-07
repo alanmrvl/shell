@@ -61,7 +61,6 @@ ueberzug
 
 # apps
 blender
-code
 element-desktop
 firefox
 gimp
@@ -73,6 +72,7 @@ obs-studio
 aspnet-runtime
 ctags
 dotnet-sdk
+jupyter-notebook
 meson
 ninja
 nodejs
