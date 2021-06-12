@@ -9,6 +9,7 @@ mkdir -p $HOME/.config/alacritty
 mkdir -p $HOME/.config/i3blocks
 mkdir -p $HOME/.config/newsboat
 mkdir -p $HOME/.config/nitrogen
+mkdir -p $HOME/.config/picom
 mkdir -p $HOME/.config/ranger
 mkdir -p $HOME/.config/sway
 mkdir -p $HOME/.config/xmobar
@@ -26,6 +27,7 @@ ln -sf $DIR/.config/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.ym
 ln -sf $DIR/.config/newsboat/config $HOME/.config/newsboat/config
 ln -sf $DIR/.config/nitrogen/bg-saved.cfg $HOME/.config/nitrogen/bg-saved.cfg
 ln -sf $DIR/.config/nitrogen/nitrogen.cfg $HOME/.config/nitrogen/nitrogen.cfg
+ln -sf $DIR/.config/picom/picom.conf $HOME/.config/picom/picom.conf
 ln -sf $DIR/.config/ranger/rc.conf $HOME/.config/ranger/rc.conf
 ln -sf $DIR/.config/sway/config $HOME/.config/sway/config
 ln -sf $DIR/.config/xmobar/xmobarrc $HOME/.config/xmobar/xmobarrc
